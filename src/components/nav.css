@@ -1,0 +1,10 @@
+.container-fluid {
+  background-color: #3e526c;
+}
+nav {
+  display: block;
+}
+.navbar-nav a {
+  color: #fff;
+  margin: 20px;
+}

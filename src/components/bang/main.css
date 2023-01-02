@@ -1,6 +1,125 @@
-.mainback {
-  background-color: #acb9c7;
+* {
+  box-sizing: border-box;
 }
-.mainsub {
-  background-color: #fff;
+
+.container-image {
+  position: relative;
+  height: 300px;
+  background-image: url("../../../public/images/Rectangle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* 글꼴부분 */
+.h1 {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+}
+
+.image-text {
+  position: absolute;
+}
+.text p {
+  color: #3e526c;
+}
+.text .h3 {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+/* 글꼴부분 끝 */
+
+/* 버튼시작 */
+.button-1 {
+  position: relative;
+  display: flex;
+}
+.mainButton {
+  position: absolute;
+  border-width: 0;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  width: 225px;
+  height: 50px;
+  top: 250px;
+  left: 20px;
+  background-color: #3e526c;
+}
+.mainButton a {
+  color: #fff;
+}
+.mainButton-1 {
+  position: absolute;
+  border-width: 0;
+  padding: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #3e526c;
+  background-color: #acb9c7;
+  width: 225px;
+  height: 50px;
+  top: 250px;
+  left: 245px;
+}
+/* 버튼 끝 */
+.bg {
+  position: relative;
+}
+.bg-white {
+  position: absolute;
+  height: 620px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0px;
+  left: 20px;
+}
+.bg-white img {
+  width: 450px;
+  height: 50px;
+}
+.b-1 {
+  background-color: #3e526c;
+  width: 200px;
+  border-radius: 25px;
+  border: 0;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+.b-2 {
+  text-align: center;
+  font-weight: bold;
+}
+.b-3 {
+  background-color: #3e526c;
+  width: 200px;
+  border-radius: 25px;
+  border: 0;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+.b-4 {
+  text-align: center;
+  font-weight: bold;
+}
+.v-line {
+  border-left: 3px solid #acb9c7;
+  height: 50px;
+  left: 50%;
+  position: absolute;
+}
+.b-5 {
+  text-align: center;
+  font-weight: bold;
 }

@@ -1,4 +1,7 @@
-.footer{
+* {
+  box-sizing: border-box;
+}
+.footer {
   background-color: #eee;
   text-align: center;
 }

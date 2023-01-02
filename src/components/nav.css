@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .container-fluid {
   background-color: #3e526c;
 }
@@ -7,4 +10,8 @@ nav {
 .navbar-nav a {
   color: #fff;
   margin: 20px;
+}
+.container-fluid a {
+  color: #fff;
+  margin: 15px;
 }
